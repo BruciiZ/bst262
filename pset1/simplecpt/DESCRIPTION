@@ -1,0 +1,13 @@
+Package: simplecpt
+Type: Package
+Title: Class 'simplecpt' for the CUSUM Technique for Sequential Analysis
+Version: 1.0
+Date: 2024-11-04
+Author: Bruce Zhou
+Maintainer: Bruce Zhou <huiyuan.zhou237@gmail.com>
+Description: This class has the addData method which adds values, and the checkCpt method which checks whether the cusum statistic is higher than the given threshold.
+License: GPL (>= 2)
+Imports:
+   methods,
+   Rdpack
+RoxygenNote: 7.3.2
